@@ -1,0 +1,138 @@
+{
+    "result": {
+        "albumes": [
+            {
+                "title": "Appetite for Destruction",
+                "img": "https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/ocio/portadas-de-discos-y-de-albums-de-musica-mas-importantes-del-s.xx/nevermind-nirvana-1991/4247807-1-esl-ES/nevermind-nirvana-1991.jpg?resize=980:*",
+                "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
+                "description": "El álbum debut de Guns N' Roses, conocido por éxitos como 'Sweet Child o' Mine' y 'Welcome to the Jungle'.",
+                "releaseRecord": "Lanzado el 21 de julio de 1987 por Geffen Records © 1987 UMG Recordings, Inc.",
+                "songs": [
+                    {
+                        "index": 1,
+                        "name": "Welcome to the Jungle",
+                        "autor": "Guns N' Roses",
+                        "duration": "4:34"
+                    },
+                    {
+                        "index": 2,
+                        "name": "Sweet Child o' Mine",
+                        "autor": "Guns N' Roses",
+                        "duration": "5:56"
+                    },
+                    {
+                        "index": 3,
+                        "name": "Paradise City",
+                        "autor": "Guns N' Roses",
+                        "duration": "6:45"
+                    },
+                    {
+                        "index": 4,
+                        "name": "Mr. Brownstone",
+                        "autor": "Guns N' Roses",
+                        "duration": "3:46"
+                    }
+                ]
+            },
+            {
+                "title": "The Dark Side of the Moon",
+                "img": "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_767/v1490930854/content-items/001/912/365/Planet_P_Project_Pink_World_front_cover-original.jpg?1490930854",
+                "autorInfo": "Pink Floyd • 1973 • 10 songs • 43m",
+                "description": "Un icónico álbum de rock progresivo que ha sido un éxito atemporal.",
+                "releaseRecord": "Lanzado el 1 de marzo de 1973 por Harvest Records © 1973 Pink Floyd Music Ltd.",
+                "songs": [
+                    {
+                        "index": 1,
+                        "name": "Speak to Me",
+                        "autor": "Pink Floyd",
+                        "duration": "1:13"
+                    },
+                    {
+                        "index": 2,
+                        "name": "Time",
+                        "autor": "Pink Floyd",
+                        "duration": "6:53"
+                    },
+                    {
+                        "index": 3,
+                        "name": "Money",
+                        "autor": "Pink Floyd",
+                        "duration": "6:22"
+                    },
+                    {
+                        "index": 4,
+                        "name": "Us and Them",
+                        "autor": "Pink Floyd",
+                        "duration": "7:51"
+                    }
+                ]
+            },
+            {
+                "title": "Rumours",
+                "img": "https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_80,w_820/v1577710883/content-items/003/557/575/Melbana-puraLeche-original.jpg?1577710883",
+                "autorInfo": "Fleetwood Mac • 1977 • 11 songs • 39m",
+                "description": "Uno de los álbumes más vendidos de todos los tiempos, con canciones emblemáticas como 'Go Your Own Way' y 'Dreams'.",
+                "releaseRecord": "Lanzado el 4 de febrero de 1977 por Warner Bros. Records © 1977 Warner Records Inc.",
+                "songs": [
+                    {
+                        "index": 1,
+                        "name": "Go Your Own Way",
+                        "autor": "Fleetwood Mac",
+                        "duration": "3:38"
+                    },
+                    {
+                        "index": 2,
+                        "name": "Dreams",
+                        "autor": "Fleetwood Mac",
+                        "duration": "4:14"
+                    },
+                    {
+                        "index": 3,
+                        "name": "Don't Stop",
+                        "autor": "Fleetwood Mac",
+                        "duration": "3:13"
+                    },
+                    {
+                        "index": 4,
+                        "name": "The Chain",
+                        "autor": "Fleetwood Mac",
+                        "duration": "4:28"
+                    }
+                ]
+            },
+            {
+                "title": "Appetite for Destruction",
+                "img": "https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/ocio/portadas-de-discos-y-de-albums-de-musica-mas-importantes-del-s.xx/nevermind-nirvana-1991/4247807-1-esl-ES/nevermind-nirvana-1991.jpg?resize=980:*",
+                "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
+                "description": "El álbum debut de Guns N' Roses, conocido por éxitos como 'Sweet Child o' Mine' y 'Welcome to the Jungle'.",
+                "releaseRecord": "Lanzado el 21 de julio de 1987 por Geffen Records © 1987 UMG Recordings, Inc.",
+                "songs": [
+                    {
+                        "index": 1,
+                        "name": "Welcome to the Jungle",
+                        "autor": "Guns N' Roses",
+                        "duration": "4:34"
+                    },
+                    {
+                        "index": 2,
+                        "name": "Sweet Child o' Mine",
+                        "autor": "Guns N' Roses",
+                        "duration": "5:56"
+                    },
+                    {
+                        "index": 3,
+                        "name": "Paradise City",
+                        "autor": "Guns N' Roses",
+                        "duration": "6:45"
+                    },
+                    {
+                        "index": 4,
+                        "name": "Mr. Brownstone",
+                        "autor": "Guns N' Roses",
+                        "duration": "3:46"
+                    }
+                ]
+            }
+        ]
+    }
+}
