@@ -1,6 +1,6 @@
 import data from './assets/data.json' assert { type: 'json' };
-import { Album } from './models/album.js';
-import { Song } from './models/song.js';
+import { Album } from './assets/models/album.js';
+import { Song } from './assets/models/song.js';
 
 let sectionSong = document.getElementById("songs")
 
