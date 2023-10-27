@@ -1,0 +1,568 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #805d97;
+    /* font-family: 'Roboto Slab', sans-serif; */
+  }
+  
+  
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 20;
+  }
+  /*
+  footer {
+    background-color: #d5c5dc;
+    color:#3d0b60;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  */
+  /* ------------------------------------------ HEADER ------------------------------------------ */
+  
+  .header {
+    grid-area: header;
+    justify-content: space-around;
+    background-color: #d5c5dc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 4rem;
+    width: 100%;
+  }
+  
+  .valley {
+    margin-top: 0, 7rem;
+    display: flex;
+    gap: .5rem;
+  }
+  
+  .user {
+    margin-top: 0, 7rem;
+    display: flex;
+    gap: .5rem;
+  
+  }
+  
+  
+  .icon-valleyy {
+    height: 48px;
+    width: auto;
+  }
+  
+  .user-link{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .items__text {
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0, 0rem;
+  }
+  
+  
+  .sign-upy {
+    background-color: #fed703;
+    border: 2px;
+    padding: 15px 15px;
+    color: #3d0b60;
+   border-radius: 15px;
+    margin: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: px;
+    height: 14px;
+    text-align: start;
+  }
+  
+  .icon-user {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .button-sec {
+    background-color: #3d0b60;
+    border: 2px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* ------------------------------------------ EXPLORACION Y LISTA DE ELEMENTOS ------------------------------------------ */
+  
+  
+  
+  .mainexploracion {
+    margin-bottom: 50px; /* Ajusta la cantidad de espacio según tus necesidades */
+  }
+  
+  .contenedor {
+    align-items: center;
+    width: 100%;
+    height: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 60px 20px auto 20px; /* Agregado espacio en la segunda y cuarta filas */
+    grid-template-areas: 
+      "header header"
+      "menu contenido"
+      "footer footer"; 
+  }
+  
+  .navegacion {
+    color: #d5c5dc;
+    margin-top: 37rem;
+    margin-left: 3rem;
+  }
+  
+  .menu-lateral {
+    background-color: #805d97;
+  }
+  
+  .main {
+    grid-area: contenido;
+    background-color: #3d0b60;
+  }
+  
+  .mainexploracion {
+    grid-area: contenido;
+    background-color: #3d0b60;
+    margin-top: 57rem;
+  }
+  
+  
+  button {
+    background-color: #3d0b60;
+    border-style: none;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .main {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .estrella {
+    height: 20px !important;
+    width: auto !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .titulos {
+    font-family: 'Montserrat';
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .cuadro {
+    background-color: #805d97;
+    width: 150px;
+    position: relative;
+    /* Ancho del cuadro */
+    height: 150px;
+    /* Altura del cuadro */
+    border: 2px solid #805d97;
+    /* Borde del cuadro */
+    /* Oculta el contenido que se desborda */
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-block-end: 2rem;
+    margin-right: auto;
+    /* Espacio entre cada cuadrado */
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para la imagen */
+  .cuadro img {
+    width: 100%;
+    /* Ajusta la imagen al ancho del cuadro */
+    height: auto;
+    /* Mantiene la proporción de aspecto de la imagen */
+    border-radius: 50rem;
+  }
+  
+  
+  
+  
+  
+  
+  .album {
+    width: 20rem;
+    margin-top: 15rem;
+  
+  }
+  
+  
+  .formulario {
+    background-color: #805d97;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d5c5dc;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 5;
+    height: 530px;
+  
+  }
+  
+  .cuadrados {
+    display: flex;
+    margin-right: 5rem;
+  }
+  
+  .filas {
+    display: flex;
+    margin-left: 10rem;
+  }
+  
+  .headingy {
+    color: #d5c5dc;
+    margin-top: 3rem;
+    margin-left: -45rem;
+  }
+  
+  .headingyy {
+    color: #d5c5dc;
+    margin-top: 3rem;
+    margin-left: -42rem;
+  }
+  
+  /* ------------------------------------------ CREADORAS ------------------------------------------ */
+  
+  .icon-list {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .creadoras {
+    background-color: #3d0b60;
+  }
+  
+  .mainly {
+    color: #d5c5dc;
+    text-align: center;
+    margin-top: 7rem;
+    background-color: #3d0b60;
+  
+  }
+  
+  .detalles-creadoras {
+    height: 500px;
+    /* Cambié el ancho a 100% para ocupar todo el ancho disponible */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .izquierda-descripcion {
+    flex: 1;
+    height: 400px;
+    width: 200px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+  }
+  
+  .quienes-somos {
+    margin-left: 180px;
+    background-color: #805d97;
+    flex: 1;
+    height: fit-content;
+    width: 200px;
+    /* Ajusté el ancho para que sumen un 100% */
+    margin-right: 15rem;
+    border-radius: 10px;
+    /* Hacemos que los bordes sean redondeados */
+    padding: 20px;
+    /* Agregamos espacio interior para el contenido */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quienes-somos>button {
+    width: 100%
+  }
+  
+  .botones-detalles {
+    background-color: #3d0b60;
+    border: 2px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .botones-writing {
+    background-color: #3d0b60;
+   border-radius: 15px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 14px;
+    text-align: start;
+  
+  }
+  
+  .botones-writingy {
+    background-color: #3d0b60;
+   border-radius: 15px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    text-align: start;
+  
+  }
+  
+  
+  
+  .botones-talk {
+    background-color: #d5c5dc;
+    color: #3d0b60;
+    padding: 10px 42px;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  /* ------------------------------------------ DETALLE ------------------------------------------ */
+  
+  .mainlyy {
+    height: 300px;
+    /* Cambié el ancho a 100% para ocupar todo el ancho disponible */
+    display: flex;
+    justify-content: space-between;
+    background-color:#3d0b60;
+    height: 520px;
+    width: 100%;
+  }
+  
+  .detalles-portada {
+  
+    flex: 1;
+    height: 520px;
+    width: 100%;
+    /* Ajusté el ancho para que sumen un 100% */
+    border-radius: 10px;
+    /* Hacemos que los bordes sean redondeados */
+    padding: 20px;
+    /* Agregamos espacio interior para el contenido */
+    margin-top: 18rem;
+    margin-left: 2rem;
+    color: #d5c5dc
+  }
+  
+  .album {
+    margin-left: 10rem;
+  }
+  
+  .iconly {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .listamusica {
+    color: #d5c5dc;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  
+  .listadodemusica {
+    margin-top: 6rem;
+  }
+  
+  .middletitle {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  
+  /* ------------------------------------------ FOOTER ------------------------------------------ */
+  
+  /*.iconosfooter {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icon-valley {
+    height: 48px;
+    width: auto;
+    position: relative;
+    left: 570px;
+  }
+  */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d5c5dc;
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+  }
+  
+ 
+  
+  /*    border: none;
+    height: 2px;
+    width: 500px;
+    background-color: #3d0b60;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;*/
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente los íconos */
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .icono-instagram,
+  .icono-facebook,
+  .icono-tumblr {
+    color: #3d0b60;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .icono-instagram:hover,
+  .icono-facebook:hover,
+  .icono-tumblr:hover {
+    color: #805d97; /* Cambia el color al pasar el mouse sobre los íconos */
+  }
+
+.barra-separadora{
+    border: none;
+    border-top: 2px solid #3d0b60;
+    width: 100px;
+    margin-top: 20px;
+}
+  
+  /* Agrega estilos para los íconos de redes sociales */
+  .icono-instagram i,
+  .icono-facebook i,
+  .icono-tumblr i {
+    font-size: 24px;
+  }
+  
+.valley-valley{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente el contenido */
+    position: relative;
+    margin-top: 20px;
+}
+
+.valley2{
+    color: #3d0b60;
+
+}
+  
+.valley-copyright{
+    color: #3d0b60;
+    margin-top: 10px;
+}
+
+.valley-legal{
+    color: #3d0b60;
+    margin-top: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+  

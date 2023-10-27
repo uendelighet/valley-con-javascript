@@ -13,4 +13,10 @@ export class Album {
         this.releaseRecord = releaseRecord;
         this.songs = songs
     }
+
+    click() { 
+        this.image.addEventeListener('click', () => {
+            return this.title
+        })
+    }
 }
