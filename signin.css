@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+
+  }
+  
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #3d0b60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+  /*-----------Header--------------*/
+  .header {
+    grid-area: header;
+    justify-content: space-around;
+    background-color: #d5c5dc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 4rem;
+    width: 100%;
+  }
+  
+  .valley {
+    margin-top: 0, 7rem;
+    display: flex;
+    gap: .5rem;
+  }
+  
+  .user {
+    margin-top: 0, 7rem;
+    display: flex;
+    gap: .5rem;
+  
+  }
+  
+  
+  .icon-valleyy {
+    height: 48px;
+    width: auto;
+  }
+  
+  .user-link{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .items__text {
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 0, 0rem;
+  }
+  
+  
+  .sign-upy {
+    background-color: #fed703;
+    border: 2px;
+    padding: 15px 15px;
+    color: #3d0b60;
+   border-radius: 15px;
+    margin: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: px;
+    height: 14px;
+    text-align: start;
+  }
+  
+  .icon-user {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .button-sec {
+    background-color: #3d0b60;
+    border: 2px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icon{
+    width: 20px;
+  }
+  
+  .botones-writing {
+    background-color: #3d0b60;
+   border-radius: 15px;
+    padding: 10px 15px;
+    color: #d5c5dc;
+    margin: .5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 14px;
+    text-align: start;
+  }
+
+/*------------------------------------*/
+.signin-container {
+    margin-top: 600px;
+    margin-left: 50px;
+    background-color: #572a75;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #d5c5dc;
+}
+
+.listen{
+    color: #d5c5dc;
+    text-align: center;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #d5c5dc;
+    color: #3d0b60;
+    background-image: url('google-logo.png'); /* Ruta de la imagen del logo de Google */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px; /* Espacio adicional para el logo */
+}
+
+.facebook {
+    background-color: #d5c5dc;
+    color: #3d0b60;
+    background-image: url('facebook-logo.png'); /* Ruta de la imagen del logo de Facebook */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px; /* Espacio adicional para el logo */
+}
+
+.apple {
+    background-color: #d5c5dc;
+    color: #3d0b60;
+    background-image: url('apple-logo.png'); /* Ruta de la imagen del logo de Apple */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+}
+
+.phone{
+    background-color: #805d97;
+    color: #d5c5dc;
+    background-image: url('apple-logo.png'); /* Ruta de la imagen del logo de Apple */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px; /* Espacio adicional para el logo */
+}
+
+.linea-separadora{
+    margin-top: 20px;
+}
+
+form {
+    text-align: left;
+    color: #d5c5dc;
+    margin-top: 30px;
+}
+
+/* Estilo para el contenedor del input y la etiqueta */
+.input-container {
+    margin: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="username"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #805d97;
+    color: white;
+}
+
+.email-placeholder::placeholder {
+    color: #ccc;
+    opacity: 0.4;
+}
+
+.password-placeholder::placeholder{
+    color: #ccc;
+    opacity: 0.4;
+}
+
+.username-placeholder::placeholder{
+    color: #ccc;
+    opacity: 0.4;
+}
+.birthday-text{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.birthday{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: -10px;
+}
+
+.dia-placeholder{
+    width: 100px;
+    height: 25px;
+    background-color: #d5c5dc;
+    border: none;
+    border-radius: 00px;
+}
+
+.mes-placeholder{
+    width: 200px;
+    height: 25px;
+    background-color: #d5c5dc;
+    border: none;
+    border-radius: 0px;
+}
+
+.año-placeholder{
+    width: 100px;
+    height: 25px;
+    background-color: #d5c5dc;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+.signin-button {
+    background-color: #d5c5dc;
+    color: #3d0b60;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.login{
+    color: #805d97;
+    margin-left: -10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d5c5dc;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+  }
+  
+ 
+  
+  /*    border: none;
+    height: 2px;
+    width: 500px;
+    background-color: #3d0b60;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;*/
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente los íconos */
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .icono-instagram,
+  .icono-facebook,
+  .icono-tumblr {
+    color: #3d0b60;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .icono-instagram:hover,
+  .icono-facebook:hover,
+  .icono-tumblr:hover {
+    color: #805d97; /* Cambia el color al pasar el mouse sobre los íconos */
+  }
+
+.barra-separadora{
+    border: none;
+    border-top: 2px solid #3d0b60;
+    width: 100px;
+    margin-top: 20px;
+}
+  
+  /* Agrega estilos para los íconos de redes sociales */
+  .icono-instagram i,
+  .icono-facebook i,
+  .icono-tumblr i {
+    font-size: 24px;
+  }
+  
+.valley-valley{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea verticalmente el contenido */
+    position: relative;
+    margin-top: 20px;
+}
+
+.valley2{
+    color: #3d0b60;
+
+}
+  
+.valley-copyright{
+    color: #3d0b60;
+    margin-top: 10px;
+}
+
+.valley-legal{
+    color: #3d0b60;
+    margin-top: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    max-width: 100%;
+    margin-top: 10px;
+
+}
