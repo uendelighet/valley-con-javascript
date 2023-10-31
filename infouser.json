@@ -1,0 +1,21 @@
+{
+    "cuadros": [
+      {
+        "fotos": "https://upload.wikimedia.org/wikipedia/en/8/85/Iron_Maiden_-_Piece_Of_Mind.jpg",
+        "titulos": "Sea"
+      },
+      {
+        "fotos": "https://i1.sndcdn.com/artworks-OzFTSDhKxTv6bQMV-byxgbA-t500x500.jpg",
+        "titulos": "Flowers"
+      },
+      {
+        "fotos": "https://i.pinimg.com/originals/e8/09/a4/e809a47a8c3988ff5074861ba62ec52e.jpg",
+        "titulos": "Maiden"
+      },
+      {
+        "fotos": "https://images.prismic.io/milanote/df7eeb83a07162b45ac2e882cac055de9411054a_cover.jpg?auto=compress,format",
+        "titulos": "Water"
+      }
+    ]
+  }
+  
