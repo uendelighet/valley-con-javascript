@@ -1,3 +1,5 @@
+const render = () => {
+
 export class Song {
     index = 0
     nombre = ""
@@ -11,3 +13,8 @@ export class Song {
         this.duration = duration;
     }
 }
+
+
+}
+
+window.onload = render;

@@ -2,6 +2,8 @@ import data from './assets/data.json' assert { type: 'json' };
 import { Album } from './assets/models/album.js';
 import { Song } from './assets/models/song.js';
 
+
+const render = () => {
 let sectionSong = document.getElementById("songs")
 
 
@@ -30,3 +32,7 @@ ${albumes.map((album) => {
 })
     }
 `
+
+}
+
+window.onload = render;

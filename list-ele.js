@@ -2,6 +2,7 @@ import data from './assets/data.json' assert { type: 'json' };
 import { Album } from './assets/models/album.js';
 import { Song } from './assets/models/song.js';
 
+const render = () => {
 let sectionSong = document.getElementById("songs")
 let albumes = [];
 
@@ -89,3 +90,8 @@ let portadaAlbum = document.getElementById("select-album")
 let photoPortadaAlbum = document.createElement(img);
 photoPortadaAlbum.class = 'album'
 portadaAlbum.appendChild(photoPortadaAlbum)
+
+
+}
+
+window.onload = render;
