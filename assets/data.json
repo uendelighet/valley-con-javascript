@@ -2,7 +2,7 @@
     "result": {
         "albumes": [
             {
-                "title": "Appetite for Destruction",
+                "title": "Appetite",
                 "id" : "1", 
                 "img": "https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/ocio/portadas-de-discos-y-de-albums-de-musica-mas-importantes-del-s.xx/nevermind-nirvana-1991/4247807-1-esl-ES/nevermind-nirvana-1991.jpg?resize=980:*",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -36,7 +36,7 @@
                 ]
             },
             {
-                "title": "The Dark Side of the Moon", 
+                "title": "Moon", 
                 "id" : "2", 
                 "img": "https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_80,w_820/v1577710883/content-items/003/557/575/Melbana-puraLeche-original.jpg?1577710883",
                 "autorInfo": "Pink Floyd • 1973 • 10 songs • 43m",
@@ -104,7 +104,7 @@
                 ]
             },
             {
-                "title": "Appetite",
+                "title": "Apple",
                 "id" : "4", 
                 "img": "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto,w_767/v1490930854/content-items/001/912/365/Planet_P_Project_Pink_World_front_cover-original.jpg?1490930854",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -234,7 +234,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Destruction",
                 "id" : "5", 
                 "img": "https://i.pinimg.com/236x/dd/92/32/dd9232086c9d85be83530af3aff3594e--music-album-covers-chips.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -364,9 +364,9 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Mein",
                 "id" : "6", 
-                "img": "",
+                "img": "https://i.pinimg.com/736x/32/16/f9/3216f9c6415865475002a68209067daa.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
                 "description": "El álbum debut de Guns N' Roses, conocido por éxitos como 'Sweet Child o' Mine' y 'Welcome to the Jungle'.",
                 "releaseRecord": "Lanzado el 21 de julio de 1987 por Geffen Records © 1987 UMG Recordings, Inc.",
@@ -398,7 +398,7 @@
                 ]
             },
             {
-                "title": "The Dark Side of the Moon",
+                "title": "Herz",
                 "id" : "7", 
                 "img": "https://pub-static.fotor.com/assets/projects/pages/4c2a41c410de424fbf5c0d6c0d9d712f/created-by-the-fotor-team-97e58385a8474430a8e7f2e9488447b4.jpg",
                 "autorInfo": "Pink Floyd • 1973 • 10 songs • 43m",
@@ -432,9 +432,9 @@
                 ]
             },
             {
-                "title": "Rumours",
+                "title": "Brennt",
                 "id" : "8", 
-                "img": "",
+                "img": "https://koldobarroso.com/wp-content/uploads/2017/01/album-cover-cosmic-music-electronic-koldo-barroso.jpg",
                 "autorInfo": "Fleetwood Mac • 1977 • 11 songs • 39m",
                 "description": "Uno de los álbumes más vendidos de todos los tiempos, con canciones emblemáticas como 'Go Your Own Way' y 'Dreams'.",
                 "releaseRecord": "Lanzado el 4 de febrero de 1977 por Warner Bros. Records © 1977 Warner Records Inc.",
@@ -466,7 +466,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Sie",
                 "id" : "9", 
                 "img": "https://i.pinimg.com/1200x/d1/fc/b6/d1fcb6ccf369a76bde7cbda42ea7f5af.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -596,9 +596,9 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Eine",
                 "id" : "10", 
-                "img": "",
+                "img": "https://mussica.info/wp-content/uploads/2022/12/portada-black-midi-hellfire-1024x1024.jpeg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
                 "description": "El álbum debut de Guns N' Roses, conocido por éxitos como 'Sweet Child o' Mine' y 'Welcome to the Jungle'.",
                 "releaseRecord": "Lanzado el 21 de julio de 1987 por Geffen Records © 1987 UMG Recordings, Inc.",
@@ -728,7 +728,7 @@
         ],
         "recommend": [
             {
-                "title": "Appetite for Destruction",
+                "title": "Tomatensuppe",
                 "id" : "11", 
                 "img": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/07/c10b004e-f0ae-4396-be8c-a98309b7ffbe.jpg?auto=format&q=60&fit=max&w=930",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -762,7 +762,7 @@
                 ]
             },
             {
-                "title": "The Dark Side of the Moon",
+                "title": "Dark",
                 "id" : "12", 
                 "img": "https://hips.hearstapps.com/hmg-prod/images/portadas-discos-musica-pinturas-obras-arte-inspiradas-guns-n-roses-1585738813.jpg",
                 "autorInfo": "Pink Floyd • 1973 • 10 songs • 43m",
@@ -796,7 +796,7 @@
                 ]
             },
             {
-                "title": "Rumours",
+                "title": "Side",
                 "id" : "13", 
                 "img": "https://i.pinimg.com/1200x/23/01/fb/2301fb0901062fe74be1c06c703ff24c.jpg",
                 "autorInfo": "Fleetwood Mac • 1977 • 11 songs • 39m",
@@ -830,7 +830,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Dino",
                 "id" : "14", 
                 "img": "https://i.pinimg.com/1200x/d3/41/b9/d341b91ad57639db58166f4bdc903f53.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -960,7 +960,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Meine",
                 "id" : "15", 
                 "img": "https://i.pinimg.com/736x/36/c0/e5/36c0e5e70f6fc60c219edb64eb67a667.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -1090,7 +1090,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Wonka",
                 "id" : "16", 
                 "img": "https://i.pinimg.com/1200x/17/58/2a/17582a14a3e57b7d99d5b2e3f1915cdc.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -1124,7 +1124,7 @@
                 ]
             },
             {
-                "title": "The Dark Side of the Moon",
+                "title": "Meine",
                 "id" : "17", 
                 "img": "https://i.pinimg.com/474x/8b/17/f5/8b17f5e0c418f7cfe07cb66a6545610b--you-are-beautiful-beautiful-lyrics.jpg",
                 "autorInfo": "Pink Floyd • 1973 • 10 songs • 43m",
@@ -1158,7 +1158,7 @@
                 ]
             },
             {
-                "title": "Rumours",
+                "title": "Zeit",
                 "id" : "18", 
                 "img": "https://1.bp.blogspot.com/-tslOk6DuUHw/X339xUohe6I/AAAAAAAATmU/ioUd86nqnWI0DiX7uagocu-_WOi-RhhDwCLcBGAsYHQ/s340/The-Number-Of-The_Beast.webp",
                 "autorInfo": "Fleetwood Mac • 1977 • 11 songs • 39m",
@@ -1192,7 +1192,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Arme",
                 "id" : "19", 
                 "img": "https://i.pinimg.com/736x/30/e5/79/30e579ded210d9550cd1d7cfe04c721b.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
@@ -1322,7 +1322,7 @@
                 ]
             },
             {
-                "title": "Appetite for Destruction",
+                "title": "Tristen",
                 "id" : "20", 
                 "img": "https://www.lahiguera.net/musicalia/artistas/sticky_m_a_/disco/10640/sticky_m_a__konbanwa-portada.jpg",
                 "autorInfo": "Guns N' Roses • 1987 • 12 songs • 53m",
