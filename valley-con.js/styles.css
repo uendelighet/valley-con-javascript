@@ -155,7 +155,7 @@
   .contenedor {
     align-items: center;
     width: 100%;
-    height: 940px;
+    height: 932px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 300px auto;
@@ -182,6 +182,16 @@
     
   }
 
+  
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8vw;
+
+}
+
+
   .index___main {
     grid-area: contenido;
     background-color: #3d0b60;
@@ -203,13 +213,21 @@
   .mainexploracion {
     grid-area: contenido;
     background-color: #3d0b60;
-    margin-top: 60rem ;
+    margin-top: 53rem ;
   }
 
-  .mainexploracion--filas{
+  .albumnes1{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 4px;
+    justify-items: right;
+  }
+  
+  
+  .albumnes2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    justify-content: right;
   }
   
   button {
@@ -622,13 +640,5 @@
     margin-top: 20px;
 }
 
-
-.maincontainer{
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 8vw;
-
-}
 
   

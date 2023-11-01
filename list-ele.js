@@ -92,6 +92,15 @@ photoPortadaAlbum.class = 'album'
 portadaAlbum.appendChild(photoPortadaAlbum)
 
 
+
+    document.getElementById("star-link").addEventListener("click", function() {
+        // Redirige a la página deseada
+        window.location.href = "infouser.html";
+    });
+
+
+
+
 }
 
 window.onload = render;
