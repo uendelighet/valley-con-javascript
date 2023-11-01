@@ -225,9 +225,9 @@
   
   .albumnes2{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 2rem;
-    justify-content: right;
+   
   }
   
   button {
