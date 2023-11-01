@@ -21,14 +21,15 @@ data.result.albumes.map((album) => {
 })
 
 sectionSong.innerHTML = `
-<a href="detalle.html" target="">
 ${albumes.map((album) => {
-    return `<div class="cuadro">
+    return `<a href="detalle/${album.id}.html" target="">
+    <div class="cuadro">
         <img class="fotos"
             src=${album.img}
             alt="">
         <p class="titulos">${album.title}</p>
-    </div>`
+    </div>
+    </a>`
 })
     }
 `
