@@ -57,6 +57,6 @@ body {
         transform: translateX(-200%);
     }
     100% {
-        transform: translateX(0); /* Vuelve a la primera imagen */
+        transform: translateX(0); 
     }
 }

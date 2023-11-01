@@ -1,4 +1,3 @@
-const render = () => {
 
 export class Song {
     index = 0
@@ -14,7 +13,3 @@ export class Song {
     }
 }
 
-
-}
-
-window.onload = render;

@@ -1,4 +1,4 @@
-const render = () => {
+
     export class Album {
         title = ""
         img = ""
@@ -20,5 +20,3 @@ const render = () => {
             })
         }
     }
-}
-window.onload = render;
