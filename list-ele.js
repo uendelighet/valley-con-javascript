@@ -119,4 +119,35 @@ portadaAlbum.appendChild(photoPortadaAlbum)
 
 }
 
+fetch('https://raw.githubusercontent.com/uendelighet/valley-con-javascript/main/carrusel.json')
+    .then(response => response.json())
+    .then(data => {
+        const sliderUl = document.querySelector('.slider-ul');
+        if (Array.isArray(data['slider-box']['items'])) {
+            data['slider-box']['items'].forEach(item => {
+                const li = document.createElement('li');
+                const img = document.createElement('img');
+                img.src = item.img;
+                img.alt = item.title;
+
+                const divTexto = document.createElement('div');
+                divTexto.className = 'texto';
+
+                const h2 = document.createElement('h2');
+                h2.textContent = item.title;
+
+                divTexto.appendChild(h2);
+
+                li.appendChild(img);
+                li.appendChild(divTexto);
+
+                sliderUl.appendChild(li);
+            });
+        } else {
+            console.error('El JSON no es un array válido.');
+        }
+    })
+    .catch(error => console.error('Error al cargar el JSON:', error));
+
+
 window.onload = render;
