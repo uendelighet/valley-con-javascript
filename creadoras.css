@@ -248,7 +248,15 @@
     color: white;
   }
   
-  
+  .estrella {
+    height: 20px !important;
+    width: auto !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
   .cuadro {
     background-color: #805d97;
     width: 150px;
@@ -271,6 +279,9 @@
     border-radius: 10px;
   }
   
+
+
+
   /* Estilos para la imagen */
   .cuadro img {
     width: 100%;

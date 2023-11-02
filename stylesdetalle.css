@@ -566,3 +566,13 @@
 }
 
   
+
+.main___star {
+
+    height: 20px !important;
+    width: auto !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+}

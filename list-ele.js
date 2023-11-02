@@ -13,12 +13,18 @@ data.result.albumes.map((album) => {
         let newSong = new Song(song.index, song.name, song.autor, song.duration)
         songs.push(newSong)
     })
-    let newAlbum = new Album(album.title, album.img, album.autorInfo, album.description, album.releaseRecord, songs)
+    let newAlbum = new Album(album.title, album.img, album.autorInfo, album.description, album.releaseRecord, songs, album.id)
 
     albumes.push(newAlbum)
 
     
 })
+
+
+function goToDetalle(){
+    window.location = `infouser.html` 
+}
+
 
 sectionSong.innerHTML = `
 ${albumes.map((album) => {
@@ -28,11 +34,13 @@ ${albumes.map((album) => {
             alt=""
             id=${album.id}>
         <p class="titulos">${album.title}</p>
+        <img class="estrella" onClick="() => goToDetalle()"
+        src="https://images.vexels.com/media/users/3/136916/isolated/lists/aa21eb60437133bf4f4be189636a187a-icono-de-contorno-favorito-de-estrella.png"
+        alt="">
     </div>`
 })
     }
 `
-
 
 let sectionForYou = document.getElementById("options-for-you")
 
@@ -41,23 +49,31 @@ let options = [];
 
 data.result.recommend.map((album) => {
     let songs = []
-    console.log(album);
+    
     album.songs.map((song) => {
         let newSong = new Song(song.index, song.name, song.autor, song.duration)
         songs.push(newSong)
     })
-    let newAlbum = new Album(album.title, album.img, album.autorInfo, album.description, album.releaseRecord, songs)
+    let newAlbum = new Album(album.title, album.img, album.autorInfo, album.description, album.releaseRecord, songs, album.id)
     options.push(newAlbum)
+
+    console.log("this is options" +options)
 })
 
 sectionForYou.innerHTML = `
-<a href="detalle.html" target="">
+
 ${options.map((album) => {
+    console.log("this is my albums" +album.title)
+    
     return `<div class="cuadro">
         <img class="fotos"
             src=${album.img}
-            alt="">
+            alt=""
+            id=${album.id}>
         <p class="titulos">${album.title}</p>
+        <img class="estrella" onClick="() => goToDetalle()"
+                        src="https://images.vexels.com/media/users/3/136916/isolated/lists/aa21eb60437133bf4f4be189636a187a-icono-de-contorno-favorito-de-estrella.png"
+                        alt="">
     </div>`
 })
     }
@@ -71,7 +87,7 @@ albumList.forEach(photo => {
     photo.addEventListener('click', () => {
         currentAlbum = photo.id
         console.log(currentAlbum)
-        window.location = 'detalle.html'
+        window.location = `detalle.html` 
     })
 });
 
@@ -90,6 +106,15 @@ let portadaAlbum = document.getElementById("select-album")
 let photoPortadaAlbum = document.createElement(img);
 photoPortadaAlbum.class = 'album'
 portadaAlbum.appendChild(photoPortadaAlbum)
+
+
+
+    document.getElementById("star-link").addEventListener("click", function() {
+        // Redirige a la página deseada
+        window.location.href = "infouser.html";
+    });
+
+
 
 
 }

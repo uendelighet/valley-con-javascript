@@ -36,23 +36,7 @@
   }
   */
   /* ------------------------------------------ HEADER ------------------------------------------ */
-  
-  .header {
-    grid-area: header;
-    justify-content: space-around;
-    background-color: #d5c5dc;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: border-box;
-    height: 4rem;
-    width: 100%;
-  }
+
   
   .valley {
     margin-top: 0, 7rem;
@@ -60,23 +44,14 @@
     gap: .5rem;
   }
   
-  .user {
-    margin-top: 0, 7rem;
-    display: flex;
-    gap: .5rem;
-  
-  }
-  
+
   
   .icon-valleyy {
     height: 48px;
     width: auto;
   }
   
-  .user-link{
-    display: flex;
-    flex-direction: row;
-  }
+
   
   .items__text {
     margin: .5rem;
@@ -107,13 +82,43 @@
     text-align: start;
   }
   
-  .icon-user {
+  .header___user---icon {
     width: 40px;
     height: 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
     text-align: center;
+  }
+
+    
+  .header {
+    grid-area: header;
+    justify-content: space-around;
+    background-color: #d5c5dc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 4rem;
+    width: 100%;
+  }
+
+  .header___user {
+    margin-top: 0, 7rem;
+    display: flex;
+    gap: .5rem;
+  
+  }
+  
+  .header___user---link{
+    display: flex;
+    flex-direction: row;
   }
   
   
@@ -133,7 +138,7 @@
     text-align: center;
   }
   
-  .search {
+  .valley---search {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -143,14 +148,14 @@
   
   
   
-  .mainexploracion {
-    margin-bottom: 50px; /* Ajusta la cantidad de espacio según tus necesidades */
-  }
+
+
+  
   
   .contenedor {
     align-items: center;
     width: 100%;
-    height: 940px;
+    height: 932px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 300px auto;
@@ -174,14 +179,56 @@
   .main {
     grid-area: contenido;
     background-color: #3d0b60;
+    
   }
+
+  
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8vw;
+
+}
+
+
+  .index___main {
+    grid-area: contenido;
+    background-color: #3d0b60;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    
+  }
+
+
+  
+  .main___filas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
   
   .mainexploracion {
     grid-area: contenido;
     background-color: #3d0b60;
-    margin-top: 57rem;
+    margin-top: 53rem ;
+  }
+
+  .albumnes1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   
+  
+  .albumnes2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
   
   button {
     background-color: #3d0b60;
@@ -192,6 +239,35 @@
     width: 20px;
     height: 20px;
   }
+
+  .header___search---icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+
+.header___search---boton {
+    background-color: #3d0b60;
+     border-radius: 15px;
+      padding: 10px 15px;
+      color: #d5c5dc;
+      margin: .5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 300px;
+      height: 14px;
+      text-align: start;
+    }
+    
+    .header---search {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
   
   .main {
     margin-top: 3rem;
@@ -282,10 +358,9 @@
     margin-left: 10rem;
   }
   
-  .headingy {
+  .main___tittle {
     color: #d5c5dc;
-    margin-top: 3rem;
-    margin-left: -45rem;
+    
   }
   
   .headingyy {
@@ -564,5 +639,6 @@
     max-width: 100%;
     margin-top: 20px;
 }
+
 
   
