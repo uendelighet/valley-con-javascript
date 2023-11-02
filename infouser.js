@@ -1,7 +1,5 @@
-// URL de la API
 const apiUrl = 'https://raw.githubusercontent.com/uendelighet/valley-con-javascript/main/infouser.json';
 
-// Función para crear un div con una imagen y un párrafo
 function createCuadro(fotos, titulos) {
     const cuadrosDiv = document.createElement('div');
     cuadrosDiv.className = 'cuadros';
@@ -21,9 +19,8 @@ function createCuadro(fotos, titulos) {
     return cuadrosDiv;
 }
 
-// Función para cargar los datos y construir el div principal
 function buildAlbums() {
-    // Hacer una solicitud a la API usando fetch
+
     fetch(apiUrl)
       .then(response => {
         if (!response.ok) {
@@ -34,7 +31,6 @@ function buildAlbums() {
       .then(data => {
         const albumsDiv = document.querySelector('.albums');
 
-        // Crear los elementos internos con los datos del JSON
         data.cuadros.forEach(item => {
           const cuadroDiv = createCuadro(item.fotos, item.titulos);
           albumsDiv.appendChild(cuadroDiv);
@@ -45,5 +41,6 @@ function buildAlbums() {
       });
 }
 
-// Llamar a la función para construir el div principal
 buildAlbums();
+
+window.onload = render;

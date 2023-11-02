@@ -79,7 +79,7 @@
   border: 2px;
   padding: 15px 15px;
   color: #3d0b60;
- border-radius: 15px;
+  border-radius: 15px;
   margin: .5rem;
   cursor: pointer;
   display: flex;
@@ -137,6 +137,7 @@
   width: 300px;
   height: 14px;
   text-align: start;
+  outline: none;
 }
 
 /*---------------------------*/
@@ -320,32 +321,34 @@
     border: none;
     border-top: 1px solid #3d0b60;
     margin: 80px 0;
+    position: relative;
+    top: -35px;
 }
 
 .joined{
     position: relative;
-    top: -70px;
+    top: -140px;
 }
 
 .twitter1{
     width: 30px;
     height: 30px;
     position: relative;
-    top: -50px;
+    top: -141px;
 }
 
 .instagram1{
     width: 30px;
     height: 30px;
     position: relative;
-    top: -50px;   
+    top: -141px;   
 }
 
 .facebook1{
     width: 20px;
     height: 20px;
     position: relative;
-    top: -55px;
+    top: -147px;
     left: 3px;   
 }
 
@@ -479,7 +482,7 @@
     align-items: center;
     justify-content: center;
     width: 200px; /* Ancho del carrusel */
-    margin-top: 60px; /* Centra el carrusel horizontalmente */
+    margin-top: 50px; /* Centra el carrusel horizontalmente */
     margin-left: 90px;
 }
   
