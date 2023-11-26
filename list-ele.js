@@ -154,11 +154,12 @@
 
 
 
+// importar clases necesarias
 import data from './assets/data.json' assert { type: 'json' };
 import { Album } from './assets/models/album.js';
 import { Song } from './assets/models/song.js';
 
-
+// clase para manejar la renderización de álbumes
 class AlbumRenderer {
   constructor(data) {
     this.data = data;
@@ -175,25 +176,36 @@ class AlbumRenderer {
   renderAlbums(containerId) {
     const container = document.getElementById(containerId);
     container.innerHTML = this.albumes.map((album) => this.generateAlbumHTML(album)).join('');
+    this.addClickHandlers('.fotos', goToDetalle);
   }
 
   generateAlbumHTML(album) {
     return `<div class="cuadro">
-        <img class="fotos" src="${album.img}" alt="" id="${album.id}">
+        <img class="fotos" src="${album.img}" alt="" id="${album.id}" onclick="goToDetalle('${album.id}')">
         <p class="titulos">${album.title}</p>
-        <img class="estrella" onClick="goToDetalle(${album.id})"
+        <img class="estrella"
             src="https://images.vexels.com/media/users/3/136916/isolated/lists/aa21eb60437133bf4f4be189636a187a-icono-de-contorno-favorito-de-estrella.png"
             alt="">
       </div>`;
   }
+
+  addClickHandlers(selector, clickHandler) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(element => {
+      element.addEventListener('click', () => {
+        const albumId = element.id;
+        clickHandler(albumId);
+      });
+    });
+  }
 }
 
-
+// función para redirigir a la página de detalle
 function goToDetalle(albumId) {
-  window.location = `infouser.html?id=${albumId}`;
+  window.location = `detalle.html?id=${albumId}`;
 }
 
-
+// clase para manejar la construcción y renderizado de álbumes recomendados
 class RecommendedAlbumsRenderer extends AlbumRenderer {
   constructor(data) {
     super(data);
@@ -210,10 +222,11 @@ class RecommendedAlbumsRenderer extends AlbumRenderer {
   renderRecommendedAlbums(containerId) {
     const container = document.getElementById(containerId);
     container.innerHTML = this.options.map((album) => this.generateAlbumHTML(album)).join('');
+    this.addClickHandlers('.fotos', goToDetalle);
   }
 }
 
-// Clase para manejar la construcción y renderizado del carrusel
+// clase para manejar la construcción y renderizado del carrusel
 class SliderRenderer {
   constructor() {
     this.fetchSliderData();
@@ -259,7 +272,7 @@ class SliderRenderer {
   }
 }
 
-// Función para ejecutar al cargar la página
+
 function onLoad() {
   const albumRenderer = new AlbumRenderer(data);
   albumRenderer.renderAlbums('songs');
@@ -269,5 +282,6 @@ function onLoad() {
 
   const sliderRenderer = new SliderRenderer();
 }
+
 
 window.onload = onLoad;
