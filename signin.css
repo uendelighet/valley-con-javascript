@@ -311,19 +311,19 @@ input[type="username"] {
 
 
 
-.signin-button {
+#signin-button {
     background-color: #d5c5dc;
     color: #3d0b60;
     border: none;
     border-radius: 20px;
     width: 100px;
-    margin-left: 205px;
-    margin-top: 20px;
+    margin-left: 180px;
+    margin-top: 25px;
 }
 
-.login{
-    color: #805d97;
-    margin-left: -15px;
+#login{
+    color: #ccc;
+    margin-left: -25px;
 }
 
 footer {
@@ -473,16 +473,16 @@ footer {
     padding: 10px 15px;
     color: #d5c5dc;
     margin: .5rem;
-    cursor: pointer;
     display: flex;
     align-items: center;
     width: 300px;
     height: 14px;
     text-align: start;
+    outline: none;
+    border: none;
   }
   
   .header---search {
-
   display: flex;
   justify-content: center;
   align-items: center;

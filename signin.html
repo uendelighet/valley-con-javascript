@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signin</title>
-    <link rel="stylesheet" href="./signin.css" type="text/css" />
+    <link rel="stylesheet" href="./signin.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <section class="header---valley">
-            <a href="index.html" target="">
+            <!--<a href="index.html" target="">-->
                 <img class="icon-valleyy"
                         src="foto_logo.png"
                         alt="">
@@ -22,8 +24,8 @@
                 <input class="header___search---boton" placeholder="Search"></input>
         </section>
         <section class="header___user">
-            <a href="signin.html" class="header___user---link" target="">
-                <button class="sign-upy">Sign up</button>
+            <a href="login.html" class="header___user---link" target="">
+                <button class="sign-upy">Log in</button>
                 <img class="header___user---icon" src="https://cdn-icons-png.flaticon.com/512/6522/6522516.png" alt="">
                 </a>
         </section>
@@ -38,13 +40,15 @@
             <button class="apple"> Sign in with Apple </button>
             <button class="phone">Sign in with your Phone Number</button>
 
-            <form>
+            <form method="post" id="registro">
+            <div class="mb-3">
                 <label for="email"> What's your email? </label>
-                <input type="email" id="email" class="email-placeholder"  placeholder="example@gmail.com" name="email" required>
-                
+                <input type="email" id="email" class="form-control"  placeholder="example@gmail.com" name="email" required>
+            </div>
+            <div class="mb-3">
                 <label for="password"> Create a password </label>
-                <input type="password" id="password" name="password" class="password-placeholder" placeholder="******" required>
-
+                <input type="password" class="form-control" id="password" name="confirmPassword" class="password-placeholder" placeholder="******" required>
+            </div>
                 <label for="username"> Choose your username </label>
                 <input type="username" id="username" name="username" class="username-placeholder" placeholder="Introduce an username" required>
             
@@ -58,10 +62,11 @@
                 <label for="año"></label>
                 <input type="año" id="año" name="año" class="año-placeholder" placeholder="Year" required>
             </div>
-
-                <button class="signin-button" type="submit"> Sign In </button>
-        </form>
-            <a href="login.html" class="login"> I already have an account</a>
+            <div class="mb-3">
+                <button class="form-control btn btn-info" id="signin-button" type="submit"> Sign In </button>
+            </div>
+            </form>
+            <a href="login.html" id="login" class="link-underline-primary" id="login"> I already have an account</a>
         </div>   
     </div>
     <footer class>
@@ -82,4 +87,8 @@
             <img class="logo" src="Group 2.png" alt=""/>
             </a>
     </footer>
+    <script type="module" src="signin.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </html>

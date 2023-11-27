@@ -46,7 +46,7 @@
 // window.onload = render;
 
 
-
+import { obtenerUsuarioActual, cerrarSesion } from "./utils.js";
 
 class AlbumBuilder {
   constructor(apiUrl, containerSelector) {
@@ -99,3 +99,13 @@ const containerSelector = '.albums';
 
 const albumBuilder = new AlbumBuilder(apiUrl, containerSelector);
 albumBuilder.buildAlbums();
+
+const btnCerrarSesion = document.querySelector("#cerrarSesion");
+
+    btnCerrarSesion.addEventListener("click", () => {
+        cerrarSesion();
+        window.location.href = "login.html";
+
+      });
+    
+    window.onload = render;
